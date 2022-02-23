@@ -1,0 +1,43 @@
+h1, .turn, h3, #yourTurn{
+    text-align: center;
+}
+
+h1 {
+    color:blueviolet
+}
+h3{
+    color: cadetblue;
+}
+.container{
+   
+    width: 60%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.box{
+    border: 5px solid rgb(65, 29, 65);
+    padding: 56px;
+    text-align: center;
+    font-size: 56px;
+    
+}
+
+.turn{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 0px;
+    width: 20%;
+    font-size: 40px;
+}
+
+#yourTurn {
+    color:cornflowerblue;
+    font-size: 36px;
+}
+
